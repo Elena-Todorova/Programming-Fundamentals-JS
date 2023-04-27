@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    max-width: 1300px;
+    margin: 0 auto;
+
+}
+
+.navigation {
+    padding: 0 20px;
+}
+
+body>header>p {
+    display: inline-block;
+    font-size: 22px;
+    width: 718px;
+}
+
+nav {
+    display: inline-block;
+    padding: 0 20px;
+
+}
+nav ul li {
+    display: inline-block;
+    padding-right: 10px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav i {
+    border: solid black;
+    border-radius: 50%;
+    padding: 5px;
+
+}
+
+body>header>p>span {
+    color: #50b9e1;
+}
+
+ul {
+    padding: 0;
+}
+
+a:hover {
+    color: #43bae3;
+    cursor: pointer;
+}
+
+/*site-header*/
+.site-header {
+    background: url('./kids_main.jpg'), no-repeat, center;
+    background-size: cover;
+    padding-left: 80px;
+    padding-top: 170px;
+    padding-bottom: 150px;
+    padding-right: 450px;
+}
+
+body>header>section.site-header>h1 {
+    font-size: 66px;
+    color: white;
+
+}
+
+body>header>section.site-header>button {
+    font-size: 22px;
+    background: transparent;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    padding: 10px 15px;
+
+}
+
+body>header>section.site-header>button:hover {
+    background: #50b9e1;
+    border: 2px solid #50b9e1;
+    cursor: pointer;
+}
+
+/*main*/
+
+section.Welcome {
+    width: 60%;
+    color: #5a7c8a;
+    margin: 0 auto; /*centered text*/
+    text-align: center;
+    padding: 20px 0;
+}
+
+ h2{
+    font-family: "PT Serif", serif;
+    font-size: 32px;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+
+section.offers {
+    background-color: #50b9e1;
+   font-family: "PT Serif", serif;
+   padding: 20px 30px;
+}
+
+section.offers h2{
+    text-align: center;
+    color: white;
+}
+
+section.offers li{
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+    padding: 15px
+}
+
+section.offers img{
+    width: 70px;
+    
+}
+
+section.offers li a{
+    color: white;
+    text-decoration: none;
+}
+
+section.camps{
+    color: #5a7c8a;
+    padding: 80px 0;
+    
+}
+section.camps p.top{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+section.camps img{
+    width: 400px;
+    height: 250px;
+    padding-top: 30px;
+}
+
+section.camps li{
+    display: inline-block;
+    width: 400px;
+}
+
+section.info div p{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 229px;
+}
+
+section.info div h3{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+section.info div{
+    display: inline-block;
+}
+
+section.info div:nth-child(2){
+    background-color: #50b9e1;
+    color: white;
+    font-size: 35px;
+    width: 60px;
+}
+
+section.camps li:not(:last-child){
+    padding-right: 40px;
+}
+
+section.camps ul li section.info{
+    border-bottom: solid;
+    padding-bottom: 10px;
+}
+
+section.camps ul li section.more button{
+    font-size: 18px;
+    background: transparent;
+    color: #43bae3;
+    border-width: 2px;
+    border-color: #43bae3;
+    border-style: solid;
+    padding: 8px;
+}
+
+section.camps ul li section.more button:hover{
+    background: #43bae3;
+    color: white;
+    cursor: pointer;
+}
+/*footer*/
+
+   footer{
+    background-color: #43bae3;
+    padding: 0 40px;
+    color: #5a7c8a;
+   } 
+   footer p{
+    display: inline-block;
+    width: 1100px;
+   }
+
+   footer ul{
+    display: inline-block;
+   }
+   footer ul li{
+    display: inline-block};
+    
+    footer ul li a {
+        display: inline-block;
+        text-decoration: none;
+       
+    }
+footer ul li a i{
+    color: #5a7c8a;
+    border: solid;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+    
+
+
